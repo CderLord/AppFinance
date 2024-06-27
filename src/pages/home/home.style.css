@@ -1,11 +1,88 @@
-.container {
-    background-color: green;
+.container-home {
+    background-color:rgb(238, 245, 249);
     display: flex;
-    height: 100dvh;
+    height: 100vh;  /*vh melhor para compatibilidade */
     align-items: center;
     justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    
+
+}
+.card-home-content-left{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    
+}
+.card-home-content-rigth{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    border-left: 2px solid rgba(143, 143, 143, 0.442);
+    border-radius: 2px;
+    
 }
 
-p {
-    color: black;
+
+.card-home-month-finances{
+    width: 7vw;
+    max-height: 0.65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.card-home-user-name-text {
+    margin-top: -0.6em;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.title-red{
+    color: red;
+    font:400 ;
+    
+
+}
+
+.title-green{
+    color: green;
+    font:400 ;
+}
+.card-home-month-finances p {
+    margin-bottom: 1px;
+    font-weight: lighter;
+}
+.graph-button-home{
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    max-height: 10.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(143, 143, 143, 0.442) ;
+    margin: 0px 0px 0px 16px;
+    color: rgba(0, 0, 0, 0.73);
+   
+}
+.button-expenses-home{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+}
+.button-expenses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px 0px 0px 0px;
+}
+.button-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }

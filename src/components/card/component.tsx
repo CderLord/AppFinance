@@ -1,9 +1,9 @@
 import './card.style.css'
 
-export const Card = () => {
+export const Card = ({children}:{children:JSX.Element}) => {
     return (
-        <div className='container'>
-            <div className='content'/>
+        <div className='container-card'>
+            {children}
         </div>
     )
 }
