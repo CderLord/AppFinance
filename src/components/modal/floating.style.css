@@ -1,12 +1,18 @@
-.container-float {
-    padding: 1.5em;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow:  3px 2px 3px 6px rgba(128, 128, 128, 0.137);
+.background-modal {
+
     display: flex;
-    flex-direction: row;
-    margin: 0px 0px 0px 16px;
-    display: none
-    
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
     
 }
+
+/* .modal-info{
+    width: 25vw;
+    height: 35vh;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px black;
+
+} */
+

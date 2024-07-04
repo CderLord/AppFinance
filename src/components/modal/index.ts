@@ -1,1 +1,1 @@
-export * from "./component.float"
+export * from "./modal"
