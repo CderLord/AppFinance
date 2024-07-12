@@ -5,24 +5,32 @@ export const reducer = (state: { openModal: boolean, modalName: string } | undef
             return {
                 ...state,
                 openModal: true,
-                modalName: "Nova Despesa"
-
+                modalName: "Nova Despesa",
+                id: "despesa",
             }
         case "register":
             return {
                 ...state,
                 openModal: true,
-                modalName: "Nova Receita"
+                modalName: "Nova Receita",
+                id: "receita",
             }
         case "closeModal":
             return {
                 ...state,
                 openModal: false,
-                modalName: ''
+                modalName: '',
+                id: "0",
             }
 
 
-        default: break
+        default:
+            return {
+                ...state,
+                openModal: false,
+                modalName: '',
+                id: "0",
+            }
     }
 
 

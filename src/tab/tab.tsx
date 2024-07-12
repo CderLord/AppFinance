@@ -55,11 +55,11 @@ const ResponsiveAppBar = () => {
 
   return (
 
-    <AppBar position='static'>
+    <AppBar position='static' className='container-top-bar'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <div className='logo'><img src={Logo} alt="logo" /></div>
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box  sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -132,7 +132,7 @@ const ResponsiveAppBar = () => {
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
               </IconButton>
             </Tooltip>
-            <Menu
+            <Menu 
               sx={{ mt: '45px' }}
               id="menu-appbar"
               anchorEl={anchorElUser}
